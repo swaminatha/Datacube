@@ -1,0 +1,29 @@
+DESCRIPTION 
+=============
+
+Input Files -
+--------------- 
+apps.tsv, users.tsv, jobs.tsv,user_history.tsv
+
+Files read for this task
+-------------------------
+apps.tsv & users.tsv.
+
+Task
+-----
+To aggregate the values based on the input - Country Code
+
+
+For a Given country code
+---------------------------
+1.) List top 5 state-wise most popular job positions and
+2.) List top 5 most popular job titles in a given country
+
+
+
+Execution Steps 
+---------------
+Format:
+python “File_Name”.py “Country_Code” “Full Path of apps.tsv” “Full Path of users.tsv” “Full Path of jobs.tsv ” “Full Path of user_history.tsv ”
+Eg.
+python Datacube.py US ~/apps.tsv ~/users.tsv ~/jobs.tsv ~/user_history.tsv
